@@ -1,0 +1,57 @@
+ .navigationN2-2{
+	border:1px solid #ccc;
+	border-bottom:none;
+	margin-bottom:16px;
+}
+ .navigationN2-2 ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ .navigationN2-2 li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+ .navigationN2-2 li a,
+ .navigationN2-2 li a:link,
+ .navigationN2-2 li a:visited
+{
+	border-bottom:1px solid #ccc;
+	padding:0.5em 0.5em;
+	display:block;
+	text-decoration:none;
+	color:#333;
+}
+ .navigationN2-2 li a:hover,
+ .navigationN2-2 li a:active {
+	color:#003399;
+	background-color:#eaeaea
+}
+ .navigationN2-2 li.selected a {
+	background-color: #eaeaea;
+	font-weight:bold;
+}
+ .navigationN2-2 li.selected ul li a{
+	background-color: transparent;
+	font-weight:normal;
+}
+ .navigationN2-2 ul.level_2 li a
+{
+	padding-left:2em;
+}
+ .navigationN2-2 ul.level_3 li a
+{
+	padding-left:4em;
+}
+ .navigationN2-2 ul.level_4 li a
+{
+	padding-left:6em;
+}
+ .navigationN2-2 ul.level_5 li a
+{
+	padding-left:8em;
+}
