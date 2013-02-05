@@ -73,7 +73,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <depends>default,grid,calendar,event,facets,news,search,sitemap,skins,default-skins,profile</depends>
+                        <Jahia-Depends>default,grid,calendar,event,facets,news,search,sitemap,skins,default-skins,profile</Jahia-Depends>
                         <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
                     </instructions>
                 </configuration>
