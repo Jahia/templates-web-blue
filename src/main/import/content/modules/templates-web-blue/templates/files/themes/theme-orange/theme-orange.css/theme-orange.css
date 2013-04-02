@@ -1,0 +1,86 @@
+
+/******************************************************************************
+*  Hilight List
+******************************************************************************/
+ .hilightList li a:hover,
+ .hilightList li a:active {
+	color:#ff6600;
+}
+
+/******************************************************************************
+*  header
+******************************************************************************/
+ #header{
+	background:#c34a27 url(theme-orange/img/header-bg.png) repeat-x top left;
+}
+
+/******************************************************************************
+*  general
+******************************************************************************/
+ img 			{ border: 0px;}
+
+ a,
+ a:link,
+ a:visited {
+	color:#ff6600 ;
+}
+ a:hover,
+ a:active {
+	color:#ff6600 ;
+}
+ pre {
+	border-left:4px solid #ff6600;
+}
+
+ .paginationNavigation a:hover {
+	background:#ff6600 ;
+}
+ .paginationNavigation .currentPage{
+	background:#ff6600 ;
+}
+
+ input.button,  button {
+	color:#ff6600;
+}
+ .button:hover,  button:hover {
+	color:#ff6600;
+}
+
+ .table th {
+	background-color:#ff6600;
+}
+
+ .idTabs li a {
+	color:#ff6600;
+}
+ .idTabs li a.selected,
+ .idTabs li a:hover,
+ .idTabs li a.selected {
+	color:#ff6600;
+}
+
+ .idTabs li a.selected span,
+ .idTabs li a:hover span,
+ .idTabs li a.idTabs span {
+	color:#ff6600;
+}
+/******************************************************************************
+*  navigationN1
+******************************************************************************/
+ .navigationN1 li a:hover,
+ .navigationN1 li a:active {
+	border-bottom:3px solid #ff6600;
+}
+ .navigationN1 li.selected a,
+ .navigationN1 li.selected a:link,
+ .navigationN1 li.selected a:visited {
+	color:#ff6600;
+	border-bottom:3px solid #ff6600;
+}
+/******************************************************************************
+*  navigationN2
+******************************************************************************/
+ .navigationN2-2 li a:hover,
+ .navigationN2-2 li a:active {
+	color:#ff6600;
+}
