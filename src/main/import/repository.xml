@@ -9,7 +9,9 @@
                           jcr:mixinTypes="jmix:sitemap"
                           jcr:primaryType="jnt:module"
                           priority="0.5">
-                
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder"/>
+                <contents jcr:primaryType="jnt:contentFolder"/>
       <templates jcr:primaryType="jnt:templatesFolder">
                     <files jcr:primaryType="jnt:folder">
                         <themes jcr:primaryType="jnt:folder">
@@ -122,12 +124,12 @@
           <header-col1 jcr:primaryType="jnt:contentList">
                             <link-to-contribute-mode j:requireLoggedUser="false"
                                            j:requirePrivilegedUser="false"
-                                           j:requiredPermissions="#/permissions/contributeMode/contributeModeAccess"
+                                           j:requiredPermissionNames="contributeModeAccess"
                                            jcr:mixinTypes="jmix:requiredPermissions"
                                            jcr:primaryType="jnt:gotoContribute"/>
                             <link-to-edit-mode j:requireLoggedUser="false"
                                      j:requirePrivilegedUser="false"
-                                     j:requiredPermissions="#/permissions/editMode/editModeAccess"
+                                     j:requiredPermissionNames="editModeAccess"
                                      jcr:mixinTypes="jmix:requiredPermissions"
                                      jcr:primaryType="jnt:gotoEdit"/>
                             <header-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
@@ -404,14 +406,13 @@
           </fullpage>
                         <testte j:hiddenTemplate="false" jcr:primaryType="jnt:pageTemplate">
                             <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="testte"/>
                         </testte>
         </base>
       </templates>
-                <portlets jcr:primaryType="jnt:portletFolder"/>
-                <files jcr:primaryType="jnt:folder"/>
-                <contents jcr:primaryType="jnt:contentFolder"/>
+                
                 <home changefreq="monthly"
                j:isHomePage="true"
                j:templateName="home"
@@ -466,5 +467,4 @@
                 
     </templates-web-blue>
     </modules>
-
 </content>
