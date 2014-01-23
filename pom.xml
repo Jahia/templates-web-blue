@@ -12,24 +12,21 @@
   <packaging>bundle</packaging>
   <name>Jahia Web Templates Blue</name>
   <description>These are the custom module (jahiaPages) for running on a Jahia server.</description>
-  <scm>
-    <connection>scm:git:git@github.com:Jahia/templates-web-blue.git</connection>
-    <developerConnection>scm:git:git@github.com:Jahia/templates-web-blue.git</developerConnection>
-  </scm>
-  <repositories>
-    <repository>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-      <id>jahia-public</id>
-      <name>Jahia Public Repository</name>
-      <url>https://devtools.jahia.com/nexus/content/groups/public</url>
-    </repository>
-  </repositories>
+
+    <repositories>
+        <repository>
+            <id>jahia-public</id>
+            <name>Jahia Public Repository</name>
+            <url>https://devtools.jahia.com/nexus/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
   <build>
     <plugins>
       <plugin>
