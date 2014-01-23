@@ -6,12 +6,10 @@
                           j:installedModules="templates-web-blue"
                           j:moduleType="templatesSet"
                           j:title="Template - Web blue"
-                          jcr:mixinTypes="jmix:sitemap"
+                          jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sitemap"
                           jcr:primaryType="jnt:module"
                           priority="0.5">
-                <portlets jcr:primaryType="jnt:portletFolder"/>
-                <files jcr:primaryType="jnt:folder"/>
-                <contents jcr:primaryType="jnt:contentFolder"/>
+                
       <templates jcr:primaryType="jnt:templatesFolder">
                     <files jcr:primaryType="jnt:folder">
                         <themes jcr:primaryType="jnt:folder">
@@ -413,6 +411,9 @@
         </base>
       </templates>
                 
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder"/>
+                <contents jcr:primaryType="jnt:contentFolder"/>
                 <home changefreq="monthly"
                j:isHomePage="true"
                j:templateName="home"
@@ -464,7 +465,6 @@
           </search-results>
         </maincontent>
       </search-results>
-                
     </templates-web-blue>
     </modules>
 </content>
