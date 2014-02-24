@@ -404,14 +404,9 @@
                                 <mainResourceDisplay j:mainResourceView="fullpage" jcr:primaryType="jnt:mainResourceDisplay"/>
             </row-col1>
           </fullpage>
-                        <testte j:hiddenTemplate="false" jcr:primaryType="jnt:pageTemplate">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="testte"/>
-                        </testte>
         </base>
       </templates>
+
                 
                 <home changefreq="monthly"
                j:isHomePage="true"
@@ -464,7 +459,6 @@
           </search-results>
         </maincontent>
       </search-results>
-                
     </templates-web-blue>
     </modules>
 </content>
