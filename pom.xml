@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>jahia-modules</artifactId>
-    <version>7.0.0.0</version>
+    <version>7.0.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>templates-web-blue</artifactId>
-  <version>2.0.1-SNAPSHOT</version>
+  <version>2.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Jahia Web Templates Blue</name>
   <description>These are the custom module (jahiaPages) for running on a Jahia server.</description>
@@ -16,6 +17,12 @@
     <developerConnection>scm:git:git@github.com:Jahia/templates-web-blue.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/templates-web-blue.git</url>
   </scm>
+  <distributionManagement>
+    <repository>
+      <id>rert</id>
+      <url>https://devtools.jahia.com/nexus/content/repositories/test</url>
+    </repository>
+  </distributionManagement>
   <repositories>
     <repository>
       <releases>
