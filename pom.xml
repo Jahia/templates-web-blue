@@ -16,12 +16,6 @@
     <developerConnection>scm:git:git@github.com:Jahia/templates-web-blue.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/templates-web-blue.git</url>
   </scm>
-  <distributionManagement>
-    <repository>
-      <id>rert</id>
-      <url>https://devtools.jahia.com/nexus/content/repositories/test</url>
-    </repository>
-  </distributionManagement>
   <repositories>
     <repository>
       <releases>
