@@ -441,6 +441,44 @@
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="qa-list"/>
                         </qa-list>
+                        <qa-query jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <row1 column="2col115" jcr:primaryType="jnt:row"/>
+                            </pagecontent>
+                            <row1-col1 jcr:primaryType="jnt:contentList">
+                                <pageTitle jcr:primaryType="jnt:pageTitle"/>
+                                <breadcrumb displayCurrentPage="true"
+                                 displayHome="true"
+                                 displayLinkOnCurrentPage="false"
+                                 jcr:primaryType="jnt:pageBreadcrumb"/>
+                                <listA jcr:primaryType="jnt:area"/>
+                                <get-news jcr:language="JCR-SQL2"
+                               jcr:primaryType="jnt:query"
+                               jcr:statement="SELECT * FROM [jnt:news]"
+                               maxItems="20">
+                                    <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="Get News"/>
+                                </get-news>
+                            </row1-col1>
+                            <row1-col2 jcr:primaryType="jnt:contentList">
+                                <side-menu j:baselineNode="home"
+                                j:maxDepth="3"
+                                j:startLevel="1"
+                                j:styleName="navigationN2"
+                                jcr:primaryType="jnt:navMenu"/>
+                            </row1-col2>
+                            <illustration jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:imageReference"
+                                   j:level="1"
+                                   jcr:primaryType="jnt:absoluteArea"/>
+                            </illustration>
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="qa-query"/>
+                        </qa-query>
         </base>
       </templates>
 
