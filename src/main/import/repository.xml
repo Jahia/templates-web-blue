@@ -4,11 +4,13 @@
         <templates-web-blue changefreq="monthly"
                           j:dependencies="calendar default default-skins event facets grid news profile publication search sitemap skins"
                           j:installedModules="templates-web-blue"
+                          j:modulePriority="0"
                           j:moduleType="templatesSet"
                           j:title="Template - Web blue"
-                          jcr:mixinTypes="jmix:sitemap"
+                          jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sitemap"
                           jcr:primaryType="jnt:module"
                           priority="0.5">
+                
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder"/>
                 <contents jcr:primaryType="jnt:contentFolder"/>
@@ -34,10 +36,10 @@
                               jcr:primaryType="jnt:customRow"/>
             </pagecontent>
             <content-col2 jcr:primaryType="jnt:contentList">
-                                <aside j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                <aside jcr:primaryType="jnt:area"/>
             </content-col2>
             <content-col1 jcr:primaryType="jnt:contentList">
-                                <maincontent j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                <maincontent jcr:primaryType="jnt:area"/>
             </content-col1>
             <illustration jcr:primaryType="jnt:contentList">
                                 <illustration j:allowedTypes="jnt:banner"
@@ -63,7 +65,7 @@
                               j:startLevel="1"
                               j:styleName="navigationN2-2"
                               jcr:primaryType="jnt:navMenu"/>
-                                <Right-column j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                <Right-column jcr:primaryType="jnt:area"/>
             </content-col2>
             <content-col1 jcr:primaryType="jnt:contentList">
                                 <pagetitle jcr:primaryType="jnt:pageTitle"/>
@@ -71,8 +73,7 @@
                                      displayHome="true"
                                      displayLinkOnCurrentPage="false"
                                      jcr:primaryType="jnt:pageBreadcrumb"/>
-                                <maincontent j:allowedTypes=""
-                                  j:canDeleteInContribution="true"
+                                <maincontent j:canDeleteInContribution="true"
                                   j:canOrderInContribution="true"
                                   j:contributeTypes="jnt:bigText jnt:mainContent"
                                   j:editableInContribution="true"
@@ -101,7 +102,7 @@
                                        jcr:mixinTypes="mix:title"
                                        jcr:primaryType="jnt:translation"
                                        jcr:title="content"/>
-                                <pagecontent j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                <pagecontent jcr:primaryType="jnt:area"/>
             </content-1>
                             <footerTop colNames="footerTop-col1,footerTop-col2,footerTop-col3,footerTop-col4"
                              customColumn="4,4,4,4"
@@ -132,32 +133,32 @@
                                      j:requiredPermissionNames="editModeAccess"
                                      jcr:mixinTypes="jmix:requiredPermissions"
                                      jcr:primaryType="jnt:gotoEdit"/>
-                            <header-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <header-left jcr:primaryType="jnt:absoluteArea"/>
           </header-col1>
           <footerTop-col1 jcr:primaryType="jnt:contentList">
-                            <topfooter1 j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <topfooter1 jcr:primaryType="jnt:absoluteArea"/>
           </footerTop-col1>
           <footerTop-col2 jcr:primaryType="jnt:contentList">
-                            <topfooter2 j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <topfooter2 jcr:primaryType="jnt:absoluteArea"/>
           </footerTop-col2>
           <footerTop-col3 jcr:primaryType="jnt:contentList">
-                            <topfooter3 j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <topfooter3 jcr:primaryType="jnt:absoluteArea"/>
           </footerTop-col3>
           <footer-col1 jcr:primaryType="jnt:contentList">
-                            <footer-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <footer-left jcr:primaryType="jnt:absoluteArea"/>
           </footer-col1>
                         <content-colContent jcr:primaryType="jnt:contentList"/>
           <header-col2 jcr:primaryType="jnt:contentList">
-                            <Header-right j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <Header-right jcr:primaryType="jnt:absoluteArea"/>
           </header-col2>
           <footerTop-col4 jcr:primaryType="jnt:contentList">
-                            <topfooter4 j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <topfooter4 jcr:primaryType="jnt:absoluteArea"/>
           </footerTop-col4>
           <footer-col2 jcr:primaryType="jnt:contentList">
-                            <footer-right j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                            <footer-right jcr:primaryType="jnt:absoluteArea"/>
           </footer-col2>
           <illustration-colContent jcr:primaryType="jnt:contentList">
-                            <illustration j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                            <illustration jcr:primaryType="jnt:area"/>
           </illustration-colContent>
           <events jcr:primaryType="jnt:pageTemplate">
             <pagecontent jcr:primaryType="jnt:contentList">
@@ -293,7 +294,7 @@
                               j:startLevel="1"
                               j:styleName="navigationN2-2"
                               jcr:primaryType="jnt:navMenu"/>
-                                <Right-column j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                <Right-column jcr:primaryType="jnt:area"/>
             </content-col2>
             <content-col1 jcr:primaryType="jnt:contentList">
                                 <pagetitle jcr:primaryType="jnt:pageTitle"/>
@@ -327,7 +328,7 @@
                                      displayHome="true"
                                      displayLinkOnCurrentPage="false"
                                      jcr:primaryType="jnt:pageBreadcrumb"/>
-                                <maincontent j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                <maincontent jcr:primaryType="jnt:area"/>
             </row-col1>
           </full-page>
           <publications jcr:primaryType="jnt:pageTemplate">
@@ -407,7 +408,6 @@
         </base>
       </templates>
 
-                
                 <home changefreq="monthly"
                j:isHomePage="true"
                j:templateName="home"
@@ -419,10 +419,10 @@
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home"/>
                     <header-col1 jcr:primaryType="jnt:contentList">
-                        <header-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                        <header-left jcr:primaryType="jnt:absoluteArea"/>
                     </header-col1>
                     <header-col2 jcr:primaryType="jnt:contentList">
-                        <header-right j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
+                        <header-right jcr:primaryType="jnt:absoluteArea"/>
                     </header-col2>
                     <header-left jcr:primaryType="jnt:contentList"/>
                 </home>
