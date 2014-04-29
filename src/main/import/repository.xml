@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <templates-web-blue changefreq="monthly"
+        <templates-web-blue-qa changefreq="monthly"
                           j:dependencies="calendar default default-skins event facets grid news profile publication search sitemap skins"
-                          j:installedModules="templates-web-blue"
+                          j:installedModules="templates-web-blue-qa"
                           j:modulePriority="0"
                           j:moduleType="templatesSet"
                           j:title="Template - Web blue"
@@ -26,7 +26,7 @@
                         </themes>
                     </files>
                     <contents jcr:primaryType="jnt:contentFolder"/>
-                    <base j:view="templates-web-blue"
+                    <base j:view="templates-web-blue-qa"
                   jcr:mixinTypes="jmix:theme"
                   jcr:primaryType="jnt:template">
           <home jcr:primaryType="jnt:pageTemplate">
@@ -186,10 +186,10 @@
                                 j:styleName="navigationN2"
                                 jcr:primaryType="jnt:navMenu"/>
                                 <calendar endDateProperty="endDate"
-                               j:bindedComponent="/modules/templates-web-blue/templates/base/events/row1-col1/events"
+                               j:bindedComponent="/modules/templates-web-blue-qa/templates/base/events/row1-col1/events"
                                jcr:primaryType="jnt:calendar"
                                startDateProperty="startDate"/>
-                                <facets j:bindedComponent="/modules/templates-web-blue/templates/base/events/row1-col1/events"
+                                <facets j:bindedComponent="/modules/templates-web-blue-qa/templates/base/events/row1-col1/events"
                              j:type="jnt:event"
                              jcr:primaryType="jnt:facets">
                                     <fieldFacet facet="type"
@@ -345,7 +345,7 @@
                                 <publications j:allowedTypes="jnt:publication" jcr:primaryType="jnt:area"/>
             </row1-col1>
             <row1-col2 jcr:primaryType="jnt:contentList">
-                                <facets j:bindedComponent="/modules/templates-web-blue/templates/base/publications/row1-col1/publications"
+                                <facets j:bindedComponent="/modules/templates-web-blue-qa/templates/base/publications/row1-col1/publications"
                              j:type="jnt:publication"
                              jcr:primaryType="jnt:facets">
                                     <field-hierarchical-facet facet="Categories"
@@ -418,7 +418,7 @@
                                 <pager displayNbOfItemsPerPage="true"
                             displayNbOfItemsPerPageValues="5,10,25,50,100"
                             displayPager="true"
-                            j:bindedComponent="/modules/templates-web-blue/templates/base/qa-list/row1-col1/listA"
+                            j:bindedComponent="/modules/templates-web-blue-qa/templates/base/qa-list/row1-col1/listA"
                             jcr:primaryType="jnt:pager"
                             nbOfPages="10"
                             pageSize="10"/>
@@ -518,7 +518,7 @@
           </advanced-search>
                         <pager displayNbOfItemsPerPage="true"
                       displayPager="true"
-                      j:bindedComponent="/modules/templates-web-blue/search-results/maincontent/search-results"
+                      j:bindedComponent="/modules/templates-web-blue-qa/search-results/maincontent/search-results"
                       jcr:primaryType="jnt:pager"
                       nbOfPages="10"
                       pageSize="10"/>
@@ -533,6 +533,6 @@
           </search-results>
         </maincontent>
       </search-results>
-    </templates-web-blue>
+    </templates-web-blue-qa>
     </modules>
 </content>
