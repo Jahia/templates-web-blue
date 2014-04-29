@@ -405,6 +405,42 @@
                                 <mainResourceDisplay j:mainResourceView="fullpage" jcr:primaryType="jnt:mainResourceDisplay"/>
             </row-col1>
           </fullpage>
+                        <qa-list jcr:primaryType="jnt:pageTemplate">
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <row1 column="2col115" jcr:primaryType="jnt:row"/>
+                            </pagecontent>
+                            <row1-col1 jcr:primaryType="jnt:contentList">
+                                <pageTitle jcr:primaryType="jnt:pageTitle"/>
+                                <breadcrumb displayCurrentPage="true"
+                                 displayHome="true"
+                                 displayLinkOnCurrentPage="false"
+                                 jcr:primaryType="jnt:pageBreadcrumb"/>
+                                <pager displayNbOfItemsPerPage="true"
+                            displayNbOfItemsPerPageValues="5,10,25,50,100"
+                            displayPager="true"
+                            j:bindedComponent="/modules/templates-web-blue/templates/base/qa-list/row1-col1/listA"
+                            jcr:primaryType="jnt:pager"
+                            nbOfPages="10"
+                            pageSize="10"/>
+                                <listA jcr:primaryType="jnt:area"/>
+                            </row1-col1>
+                            <row1-col2 jcr:primaryType="jnt:contentList">
+                                <side-menu j:baselineNode="home"
+                                j:maxDepth="3"
+                                j:startLevel="1"
+                                j:styleName="navigationN2"
+                                jcr:primaryType="jnt:navMenu"/>
+                            </row1-col2>
+                            <illustration jcr:primaryType="jnt:contentList">
+                                <illustration j:allowedTypes="jnt:imageReference"
+                                   j:level="1"
+                                   jcr:primaryType="jnt:absoluteArea"/>
+                            </illustration>
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="qa-list"/>
+                        </qa-list>
         </base>
       </templates>
 
