@@ -1,7 +1,4 @@
-.idea
-*.iml
-*.ipr
-target
+/target
 /.settings
 /.classpath
 /.project
