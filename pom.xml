@@ -17,6 +17,9 @@
     <url>scm:git:git@github.com:Jahia/templates-web-blue.git</url>
     <tag>HEAD</tag>
   </scm>
+  <properties>
+    <jahia-module-signature>MCwCFBmB5CyMo/ikbobSjLZg0Yy/YoG1AhRlzp/58/cB+X+CQIaoeo8EJv6D0w==</jahia-module-signature>
+  </properties>
   <repositories>
     <repository>
       <releases>
