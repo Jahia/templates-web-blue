@@ -129,7 +129,7 @@
                                            jcr:primaryType="jnt:gotoContribute"/>
                             <link-to-edit-mode j:requireLoggedUser="false"
                                      j:requirePrivilegedUser="false"
-                                     j:requiredPermissionNames="editModeAccess"
+                                     j:requiredPermissionNames="jContentAccess"
                                      jcr:mixinTypes="jmix:requiredPermissions"
                                      jcr:primaryType="jnt:gotoEdit"/>
                             <header-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea"/>
@@ -407,7 +407,7 @@
         </base>
       </templates>
 
-                
+
                 <home changefreq="monthly"
                j:isHomePage="true"
                j:templateName="home"
