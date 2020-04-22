@@ -18,6 +18,7 @@
     <tag>HEAD</tag>
   </scm>
   <properties>
+    <require-capability>osgi.extender;filter:="(osgi.extender=org.jahia.bundles.blueprint.extender.config)"</require-capability>
     <jahia-module-signature>MCwCFBmB5CyMo/ikbobSjLZg0Yy/YoG1AhRlzp/58/cB+X+CQIaoeo8EJv6D0w==</jahia-module-signature>
   </properties>
   <repositories>
