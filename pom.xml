@@ -7,7 +7,7 @@
     <version>8.0.0.0</version>
   </parent>
   <artifactId>templates-web-blue</artifactId>
-  <version>3.0.0-SNAPSHOT</version>
+  <version>3.0.0</version>
   <packaging>bundle</packaging>
   <name>Jahia Web Templates Blue</name>
   <description>These are the custom module (jahiaPages) for running on a Jahia server.</description>
@@ -15,7 +15,7 @@
     <connection>scm:git:git@github.com:Jahia/templates-web-blue.git</connection>
     <developerConnection>scm:git:git@github.com:Jahia/templates-web-blue.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/templates-web-blue.git</url>
-    <tag>HEAD</tag>
+    <tag>3_0_0</tag>
   </scm>
   <properties>
     <jahia-module-signature>MCwCFBmB5CyMo/ikbobSjLZg0Yy/YoG1AhRlzp/58/cB+X+CQIaoeo8EJv6D0w==</jahia-module-signature>
